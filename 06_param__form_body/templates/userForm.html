@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuário</title>
+</head>
+<style>
+    body{
+        background-color: rgb(206, 223, 255);
+    }
+    input{
+        background-color: rgb(219, 187, 255);
+        border: none;
+      margin-bottom: 10px;
+      color: darkblue;
+    }
+</style>
+<body>
+  <h1>Formulário de Cadastro</h1>
+  <!-- action é qual rota que vai receber -->
+  <form action="/user/save" method="post">
+    <div>
+        <input type="text" name="name"
+        placeholder="Digite seu nome">
+        
+    </div>
+    <div>
+        <input type="number" name="age"
+        placeholder="Digite sua idade">
+    </div>
+    <div>
+        <input type="submit" value="Cadastrar">
+    </div>
+  </form>  
+</body>
+</html>

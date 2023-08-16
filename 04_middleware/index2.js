@@ -17,7 +17,7 @@ const checkAuth = function(req,res,next){
     next
   }
 }
-// usar o middleware
+// usar o middleware - ele controla as informações
 app.use(checkAuth)
 
 app.get('/',(req,res)=>{
