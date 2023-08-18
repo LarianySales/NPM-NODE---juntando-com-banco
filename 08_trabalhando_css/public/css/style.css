@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(181, 161, 255);
+    text-align: center;
+    padding: 3rem;
+}
